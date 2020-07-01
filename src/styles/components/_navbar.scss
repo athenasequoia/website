@@ -1,0 +1,30 @@
+.navbar {
+  border-style: inset;
+  border-color: black;
+  border-width: medium;
+  max-width: 160px;
+  padding: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transition:200ms;
+  &:hover{
+    box-shadow: 0 0 2rem gray;
+    }
+  a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    &:hover{
+      box-shadow: 0 0 2rem red;
+      }
+
+  }
+  ul {
+    list-style-type: none;
+    padding: 10px;
+    padding-top: 125px;
+  }
+}

@@ -1,0 +1,21 @@
+.services_presentation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  p {
+    border-style: groove;
+    border-color: black;
+    border-width: medium;
+    display: flex;
+    background-color: yellow;
+    display: table-cell;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    margin-left: 80px;
+    align-items: flex-end;
+  }
+  h1 {
+    font-family: 'Roboto', sans-serif;
+  }
+}

@@ -1,0 +1,23 @@
+.footer{
+  border-style: inset;
+  border-color: black;
+  border-width: medium;
+  background-color: white;
+  width: 100vw;
+  height: 2.5rem;
+  bottom: 0;
+  position: absolute;
+  padding: 1rem;
+  // margin: .5rem 1rem;
+  text-align: center;
+  transition:200ms;
+  &:hover{
+    box-shadow: 0 0 2rem gray;
+  }
+}
+
+.footer p{
+  color: black;
+  font-family: 'Roboto', sans-serif;
+
+}

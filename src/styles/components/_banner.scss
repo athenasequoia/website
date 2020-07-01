@@ -1,0 +1,20 @@
+.banner {
+  border-style: inset;
+  border-color: black;
+  border-width: medium;
+  display: flex;
+  background-color: red;
+  position: absolute;
+  height: 100px;
+  min-width: calc(100vw - 30px);
+  padding-top: 30px;
+  margin-top:25px;
+  left: 54px;
+  top: 8px;
+
+  p {
+  font-family: 'Roboto', sans-serif;
+
+  }
+
+}

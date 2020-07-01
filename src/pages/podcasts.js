@@ -1,11 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const Home = (props) => {
+const Podcast = (props) => {
   return (
     <div>
+    <p> Couscous </p>
     </div>
   )
 }
 
-export default Home
+export default Podcast
