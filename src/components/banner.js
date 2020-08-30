@@ -5,7 +5,9 @@ import banner from "../styles/components/_banner.scss"
 const Banner = (props) => {
   return (
     <div className = 'banner'>
-      <p> Anna Theo </p>
+      <h1> Anna Theodorides </h1>
+
+      <p> Guide Conférencier en histoire de l’art </p>
     </div>
   )
 }

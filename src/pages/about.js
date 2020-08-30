@@ -9,7 +9,7 @@ const About = (props) => {
           transmission des savoirs auprès du plus grand nombre.
           </p>
           <p>
-          Diplômée d&#39;Etat (agréée Ministère de la Culture) et Docteure en sciences sociales (EHESS, Paris),
+          Diplômée dEtat (agréée Ministère de la Culture) et Docteure en sciences sociales (EHESS, Paris),
           j’interviens dans 3 domaines :
           <br/>
           <br/>
