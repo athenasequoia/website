@@ -1,6 +1,6 @@
 import React from "react"
 import SVG from "react-inlinesvg"
-import icon from "../images/academia-edu.svg"
+import iconac from "../images/academia-edu.svg"
 
 const About = props => {
   return (
@@ -55,9 +55,10 @@ const About = props => {
           href="https://ehess.academia.edu/AnnaTheodorides"
           target="_blank"
           rel="noopener noreferrer"
+          style=""
         >
           {" "}
-          <SVG src={icon} />
+          <SVG src={iconac} />
         </a>
       </div>
     </>
