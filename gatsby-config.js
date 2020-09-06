@@ -27,9 +27,9 @@ module.exports = {
           {
             resolve: "gatsby-remark-embed-soundcloud",
             options: {
-              width: 800, // default is "100%"
-              height: 500, // default is 300
-              color: "#ff00ff", // default is #ff5500
+              width: 800,
+              height: 600,
+              color: "#ff5500",
               autoplay: false, // default is false
             },
           },

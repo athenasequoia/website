@@ -14,6 +14,7 @@ const Podcast = ({ data }) => {
       <h1>Les Petites Conf-Inées</h1>
       <br></br>
       <h2>– des objets à écouter, des histoires à raconter –</h2>
+      <br></br>
       <h3>
         Une série d’histoires venues d’ailleurs pour les enfants à partir de 7
         ans et jeunes curieux. Chaque épisode est dédié à un objet exposé dans
@@ -32,6 +33,8 @@ const Podcast = ({ data }) => {
         trois aires culturelles : l’Amérique, l’Afrique et l’Océanie (les objets
         d’Océanie étant les plus nombreux)
       </h3>
+      <br></br>
+      <br></br>
       <div dangerouslySetInnerHTML={{ __html: mark }}></div>
     </div>
   )
