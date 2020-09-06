@@ -1,0 +1,21 @@
+.contact {
+  h1 {
+    font-family: "Questrial", sans-serif;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 40px;
+    width: 50%;
+    padding: 10px;
+    -webkit-text-stroke: 2.5px black;
+    -webkit-text-fill-color: white;
+    -webkit-animation: fill 0.2s infinite alternate;
+  }
+  @-webkit-keyframes fill {
+    from {
+      -webkit-text-fill-color: black;
+    }
+    to {
+      -webkit-text-fill-color: black;
+    }
+  }
+}

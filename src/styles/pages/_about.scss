@@ -1,20 +1,36 @@
-// .introduction_self {
-//   display: grid;
-//   grid-template-columns: repeat( 12, minmax(250px, 1fr));
-//   grid-gap: 25px;
-//   // justify-content: space-between;
-//   padding: 20px;
-//   h1 {
-//     font-family: 'Roboto', sans-serif;
-// }
-//   p {
-//     border-style: groove;
-//     border-color: black;
-//     border-width: medium;
-//     background-color: yellow;
-//     // justify-content: space-between;
-//     font-family: 'Roboto', sans-serif;
-//     font-size: 10px;
-//     align-items: flex-end;
-//     }
-// }
+.introduction_self {
+  h1 {
+    font-family: "Questrial", sans-serif;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 40px;
+    width: 50%;
+    padding: 10px;
+    -webkit-text-stroke: 2.5px black;
+    -webkit-text-fill-color: white;
+    -webkit-animation: fill 0.2s infinite alternate;
+  }
+  @-webkit-keyframes fill {
+    from {
+      -webkit-text-fill-color: black;
+    }
+    to {
+      -webkit-text-fill-color: black;
+    }
+  }
+
+  h2 {
+    font-family: "Questrial", sans-serif;
+    font-size: 30px;
+    width: 50%;
+  }
+  p {
+    color: black;
+    font-family: "Questrial", sans-serif;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 18px;
+    width: 50%;
+    padding: 10px;
+  }
+}
