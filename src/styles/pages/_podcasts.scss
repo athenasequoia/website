@@ -1,0 +1,41 @@
+.PodcastIntrod {
+  h1 {
+    color: black;
+    font-family: "Questrial", sans-serif;
+    padding-left: 120px;
+    padding-right: 120px;
+    font-size: 45px;
+    width: 50%;
+    padding: 10px;
+  }
+  h2 {
+    color: black;
+    font-family: "Questrial", sans-serif;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-size: 46px;
+    -webkit-text-stroke: 2.5px black;
+    -webkit-text-fill-color: white;
+    -webkit-animation: fill 0.2s infinite alternate;
+  }
+
+  @-webkit-keyframes fill {
+    from {
+      -webkit-text-fill-color: black;
+    }
+    to {
+      -webkit-text-fill-color: black;
+    }
+  }
+
+  h3 {
+    color: black;
+    font-family: "Questrial", sans-serif;
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: center;
+  }
+}

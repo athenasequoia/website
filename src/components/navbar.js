@@ -1,22 +1,22 @@
 import React from "react"
 import { Link } from "gatsby"
 
-const Navbar = (props) => {
+const Navbar = props => {
   return (
-    <div className = 'navbar'>
+    <div className="navbar">
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">Acceuil</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/about">Apropos</Link>
         </li>
         <li>
           <Link to="/services">Services</Link>
         </li>
         <li>
           <Link to="/podcasts">Podcast</Link>
-      </li>
+        </li>
         <li>
           <Link to="/contact">Contact</Link>
         </li>
@@ -24,4 +24,4 @@ const Navbar = (props) => {
     </div>
   )
 }
-export default Navbar;
+export default Navbar

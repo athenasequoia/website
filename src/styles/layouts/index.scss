@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -17,12 +17,11 @@ body {
   margin: 0;
 }
 
-.container{
+.container {
   display: flex;
 }
 
-.page-container{
-  background: green;
+.page-container {
   min-height: calc(100vh - 173px);
   padding: 24px;
   border-style: inset;
@@ -30,19 +29,27 @@ body {
   border-width: medium;
   margin-left: 180px;
   margin-top: 150px;
+  top: 0;
+  transition: 200ms;
+  &:hover {
+    box-shadow: 0 0 2rem grey;
+  }
 }
 
 .banner {
-  h1{
-    color: black;
-    font-size: 20px;
-    font-family: sans-serif;
-    padding-left: 110px;
-
+  top: 0;
+  transition: 200ms;
+  &:hover {
+    box-shadow: 0 0 2rem grey;
   }
-  p{
+  h1 {
+    color: black;
+    font-family: "Questrial", sans-serif;
+    padding-left: 123px;
+    font-size: 38px;
+  }
+  p {
     color: black;
     font-size: 20px;
-
   }
 }

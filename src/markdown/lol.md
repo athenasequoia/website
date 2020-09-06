@@ -1,4 +1,4 @@
-# Episode 1: Le Mât Kaîget - Colombie Britannique, Canada
+#### Episode 1:Le Mât Kaîget - Colombie Britannique, Canada
 
 Pour ce premier épisode, partons en Colombie Britannique, chez les
 Gitksans, « peuple de la brume de rivière » et les Dakelhs, « ceux qui
@@ -7,7 +7,7 @@ ont façonné : il raconte l’histoire du monstre-géant, Kaîget.
 
 https://soundcloud.com/lespetitesconfinees/le-mat-kaiget
 
-# Episode 2: Les hommes-crocodiles - Papouasie-Nouvelle-Guinée
+#### Episode 2: Les hommes-crocodiles - Papouasie-Nouvelle-Guinée
 
 Pour les peuples Iatmul, la création de la Papouasie-Nouvelle Guinée est
 intimement liée à la femme ancêtre, née du dos du crocodile. Premier
@@ -18,7 +18,7 @@ hommes crocodiles ».
 
 https://soundcloud.com/lespetitesconfinees/les-hommes-crocodiles
 
-# Episode 3: Le dama, en pays Dogon - Masques dogon, Mali
+#### Episode 3: Le dama, en pays Dogon - Masques dogon, Mali
 
 Cet épisode est consacré au dama, cérémonie du culte des morts chez les
 Dogons, peuples du Mali, en Afrique de l’Ouest. Selon eux, il est
@@ -31,5 +31,3 @@ village dans le but de séduire l’esprit des défunts et l’emmener
 rejoindre le Royaume des morts.
 
 https://soundcloud.com/lespetitesconfinees/le-dama-en-pays-dogon
-
-# Episode 4: Le dama, en pays Dogon - Masques dogon, Mali

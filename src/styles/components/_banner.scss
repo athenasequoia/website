@@ -3,18 +3,18 @@
   border-color: black;
   border-width: medium;
   display: flex;
-  background-color: red;
+  background-color: white;
   position: absolute;
   height: 100px;
   min-width: calc(100vw - 30px);
   padding-top: 30px;
-  margin-top:25px;
+  margin-top: 28px;
   left: 54px;
   top: 8px;
 
   p {
-  font-family: 'Roboto', sans-serif;
-
+    font-family: "Questrial", sans-serif;
+    margin-left: 16px;
+    padding-top: 20px;
   }
-
 }
