@@ -1,22 +1,18 @@
 .PodcastIntrod {
   h1 {
     color: black;
-    font-family: "Questrial", sans-serif;
-    padding-left: 120px;
-    padding-right: 120px;
-    font-size: 45px;
+    font-family: "Roboto", sans-serif;
+    font-size: 55px;
     width: 50%;
-    padding: 10px;
+    padding-left: 30px;
   }
   h2 {
     color: black;
     font-family: "Questrial", sans-serif;
-    padding-left: 120px;
-    padding-right: 120px;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    font-size: 46px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    font-size: 55px;
     -webkit-text-stroke: 2.5px black;
     -webkit-text-fill-color: white;
     -webkit-animation: fill 0.2s infinite alternate;
@@ -37,15 +33,33 @@
     padding-left: 120px;
     padding-right: 120px;
     text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    margin-left: 150px;
+    margin-right: 150px;
+    :hover {
+      background-color: yellow;
+    }
   }
 
   h4 {
     font-family: "Questrial", sans-serif;
     font-size: 25px;
+    padding-left: 40px;
   }
 
   p {
     font-family: "Questrial", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+  }
+
+  .iconconf {
+    width: 5%;
+    position: sticky;
+    left: 2800px;
   }
 }
