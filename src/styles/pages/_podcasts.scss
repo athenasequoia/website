@@ -58,8 +58,12 @@
   }
 
   .iconconf {
-    width: 5%;
-    position: sticky;
-    left: 2800px;
+    width: 4%;
+    position: fixed;
+    right: 100px;
+    transition: 200ms;
+    &:hover {
+      box-shadow: 0 0 5rem yellow;
+    }
   }
 }

@@ -8,9 +8,9 @@ const Contact = props => {
   return (
     <div className="contact">
       <h1> Travaillons ensemble!</h1>
-      <p>annatheodorides@gmail.com</p>
-      <p>portable : +33 615 488 692</p>
-      <div className="icons">
+      <p>annatheoconf@gmail.com</p>
+      <p>+33 615 488 692</p>
+      <div className="allicons">
         <a
           href="https://ehess.academia.edu/AnnaTheodorides"
           target="_blank"
@@ -28,6 +28,7 @@ const Contact = props => {
           {" "}
           <SVG src={iconfb} />
         </a>
+
         <a
           href="https://www.linkedin.com/in/anna-theodorides-639816bb/"
           target="_blank"
