@@ -1,6 +1,4 @@
 import React from "react"
-import SVG from "react-inlinesvg"
-import iconac from "../images/academia-edu.svg"
 
 const About = props => {
   return (
@@ -51,15 +49,6 @@ const About = props => {
           des minorités non-musulmanes au Moyen-Orient. Publications et
           contributions sont en ligne :
         </p>
-        <a
-          href="https://ehess.academia.edu/AnnaTheodorides"
-          target="_blank"
-          rel="noopener noreferrer"
-          style=""
-        >
-          {" "}
-          <SVG src={iconac} />
-        </a>
       </div>
     </>
   )

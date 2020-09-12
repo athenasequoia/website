@@ -1,11 +1,7 @@
 module.exports = {
-  siteMetadata: {
-    title: "Anna Theodorides",
-    siteUrl: "https://www.annatheo.fr",
-    description:
-      "Anna Theodorides vous offre une visite vivante des objets d’art à la lumière des enjeux du présent.",
-  },
   plugins: [
+    `gatsby-plugin-react-helmet-async`,
+
     `gatsby-plugin-layout`,
     {
       resolve: `gatsby-plugin-sass`,
