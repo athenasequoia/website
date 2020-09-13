@@ -6,17 +6,21 @@ const Navbar = props => {
     <div className="navbar">
       <ul>
         <li>
-          <Link to="/">Acceuil</Link>
+          <Link to="/">Accueil</Link>
         </li>
+        <br></br>
         <li>
           <Link to="/about">Apropos</Link>
         </li>
+        <br></br>
         <li>
           <Link to="/services">Services</Link>
         </li>
+        <br></br>
         <li>
           <Link to="/podcasts">Podcast</Link>
         </li>
+        <br></br>
         <li>
           <Link to="/contact">Contact</Link>
         </li>

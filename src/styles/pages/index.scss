@@ -2,3 +2,41 @@
 @import "./contact.scss";
 @import "./services.scss";
 @import "./podcasts.scss";
+
+.accueil {
+  font-family: "Questrial", sans-serif;
+  text-align: center;
+  font-weight: 100;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-weight: 100;
+  font-size: 35px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  opacity: 0.9;
+}
+
+.emphasis {
+  color: black;
+  font-family: "Questrial", sans-serif;
+  margin-left: 150px;
+  margin-right: 150px;
+  letter-spacing: 1.5px;
+
+  text-align: center;
+  font-size: 70px;
+  // background-color: red;
+
+  -webkit-text-stroke: 2.5px black;
+  -webkit-text-fill-color: white;
+  -webkit-animation: fill 0.2s infinite alternate;
+}
+
+@-webkit-keyframes fill {
+  from {
+    -webkit-text-fill-color: black;
+  }
+  to {
+    -webkit-text-fill-color: black;
+  }
+}

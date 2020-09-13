@@ -15,7 +15,7 @@ const Podcast = ({ data }) => {
 
   return (
     <>
-      <SEO title="Podcast | Anna Theodorides" />
+      <SEO title="Podcast | Anna Theodorides, Guide Conferencier en histoire de l'art" />
       <div className="PodcastIntrod">
         <div className="iconconf">
           <a

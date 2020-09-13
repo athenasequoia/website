@@ -3,32 +3,29 @@ import { useLocation } from "@reach/router"
 import { Helmet } from "react-helmet-async"
 import geima from "../../static/batc.jpeg"
 
-// siteMetadata: {
-//   title: "Anna Theodorides",
-//   siteUrl: "https://www.annatheo.fr",
-//   description:
-//     "Anna Theodorides vous offre une visite vivante des objets d’art à la lumière des enjeux du présent.",
-// },
+const SEO = ({ title, description, image, keywords }) => {
+  const { pathname, origin } = useLocation() // origin = base URL, pathname = after slash, useLocation no matter what page I am on, it will look at URL
 
-const SEO = ({ title, description, image }) => {
-  const { pathname, origin } = useLocation()
-
-  const siteUrl = "www.com"
   const defaults = {
-    title: "Anna Theodorides",
+    title: "Anna Theodorides, Guide Conférencier en histoire de l'art",
     description:
       "Anna Theodorides vous offre une visite vivante des objets d’art à la lumière des enjeux du présent.",
+    keywords:
+      "Conférences, Visites, Sorties à Paris, Expositions à Paris, Collections des musées parisiens, Podcast, Petites Conf-Inées, Musée du quai Branly, Art extra-occidental",
   }
   const seo = {
     title: title || defaults.title,
     description: description || defaults.description,
     image: `${origin}${image || geima}`,
     url: `${origin}${pathname}`,
+    keywords: keywords || defaults.keywords,
   }
 
   return (
     <Helmet title={seo.title}>
       <meta name="description" content={seo.description} />
+      <meta name="keywords" content={seo.keywords} />
+
       <meta name="image" content={seo.image} />
       {seo.url && <meta property="og:url" content={seo.url} />}
       {seo.title && <meta property="og:title" content={seo.title} />}

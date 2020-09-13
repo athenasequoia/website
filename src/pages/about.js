@@ -1,18 +1,21 @@
 import React from "react"
+import SEO from "../components/seo.js"
 
 const About = props => {
   return (
     <>
+      <SEO title="A propos | Anna Theodorides, Guide Conferencier en histoire de l'art" />
       <div className="introduction_self">
-        <h2>
+        <h1>A propos </h1>
+        <p>
           Ma formation interdisciplinaire – histoire de l’art, sciences sociales
           - a façonné mes perceptions sur les œuvres d’art et mon activité
           d’enseignante constitue un gage de mon expérience dans la transmission
           des savoirs auprès du plus grand nombre. Diplômée d’Etat (agréée
           Ministère de la Culture) et Docteure en sciences sociales (EHESS,
           Paris), j’interviens dans 4 domaines :
-        </h2>
-        <h1>Domaine Culturel</h1>
+        </p>
+        <h2>Domaine Culturel</h2>
         <p>
           Diplômée agrée de l’Ecole des guides conférenciers à l’Université
           d’Angers, j’ai travaillé pendant 8 ans dans le tourisme. J’ai intégré
@@ -21,7 +24,7 @@ const About = props => {
           free-lance comme conférencière pour des agences culturelles à Paris au
           service des institutions et mécènes des expositions.
         </p>
-        <h1>Podcast</h1>
+        <h2>Podcast</h2>
         <p>
           {" "}
           Depuis mars 2020, j’ai crée Les Petites Conf-Inées, une série
@@ -33,7 +36,7 @@ const About = props => {
           renvoient à des questions fondamentales telles que les origines, la
           mort, les rites de passage …
         </p>
-        <h1>Enseignment</h1>
+        <h2>Enseignment</h2>
         <p>
           Ma formation pluridisciplinaire – double Masters en relations
           interculturelles à l’Université Paris 3 La Sorbonne Nouvelle et
@@ -42,7 +45,7 @@ const About = props => {
           l’Education nationale qu’ils soient classés pôles d’excellence ou zone
           prioritaire.
         </p>
-        <h1>Recherche</h1>
+        <h2>Recherche</h2>
         <p>
           Docteure en sciences sociales à l’Ecole des Hautes Etudes en Sciences
           Sociales – Paris, je suis spécialisée dans les stratégies de survie

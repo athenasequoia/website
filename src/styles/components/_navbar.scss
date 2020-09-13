@@ -2,7 +2,7 @@
   border-style: inset;
   border-color: black;
   border-width: medium;
-  max-width: 160px;
+  width: 160px;
   padding: 40px;
   position: absolute;
   top: 0;
@@ -16,15 +16,20 @@
     color: black;
     text-align: center;
     text-decoration: none;
+    word-spacing: 2em;
     font-family: "Questrial", sans-serif;
-    size: 16px;
+    size: 50px;
     &:hover {
       font-weight: 900;
     }
   }
   ul {
     list-style-type: none;
-    padding: 8px;
-    padding-top: 185px;
+    padding: 2px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    padding-top: 285px;
+    position: fixed;
   }
 }
