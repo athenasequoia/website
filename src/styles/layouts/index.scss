@@ -5,12 +5,15 @@
 html {
   background-color: white;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
 }
 
 body {
   padding: 0;
-  margin: 0;
+}
+
+.push {
+  height: 100px;
 }
 
 .container {

@@ -7,24 +7,19 @@
   font-family: "Questrial", sans-serif;
   text-align: center;
   font-weight: 100;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 0 auto;
   font-weight: 100;
   font-size: 35px;
-  margin-bottom: 15px;
-  padding-top: 20px;
-  opacity: 0.9;
+  letter-spacing: 1.5px;
 }
 
 .emphasis {
   color: black;
   font-family: "Questrial", sans-serif;
-  margin-left: 150px;
-  margin-right: 150px;
-  letter-spacing: 1.5px;
+  letter-spacing: 3px;
 
   text-align: center;
-  font-size: 70px;
+  font-size: 50px;
   // background-color: red;
 
   -webkit-text-stroke: 2.5px black;

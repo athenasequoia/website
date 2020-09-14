@@ -8,15 +8,21 @@ import Banner from "../components/banner"
 // Importing the master style
 import "../styles/index.scss"
 
-export default ({children}) => {
+const [isOpen, setOpen] = useState(false) // <--- defaults to closed
+const handleClick = () => {
+  setOpen(true)
+}
+
+export default ({ children }) => {
   return (
     <div>
-      <Navbar/>
-      <Banner/>
+      <Navbar />
+      <Banner />
       <div className="page-container">
         {children}
-      </div>  
-      <Footer/>
+        <div className="push"></div>
+      </div>
+      <Footer />
     </div>
   )
 }

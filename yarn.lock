@@ -10622,6 +10622,11 @@ react-from-dom@^0.4.2:
   resolved "https://registry.yarnpkg.com/react-from-dom/-/react-from-dom-0.4.2.tgz#bef41428172ca570b492b5e12ae7b592587437e0"
   integrity sha512-cVa4/w0xAyd/bbTu+xu2KKrGc+KDKvR8sSQKodd5pPrN03bN1V3JOLPW+PIzh698LzQ4aL1dfWXpsKx3ZkpT+A==
 
+react-hamburger-menu@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/react-hamburger-menu/-/react-hamburger-menu-1.2.1.tgz#bcaca08bf7d1ae96aa97553828765dce8f912eeb"
+  integrity sha512-It5Jque8bx9lYn8q/NFtu9Ci20fBMsyunFSp06ZGgWXbMZlTFrN0IxKguGZ0igYQr6RvJ3S9CN3rTjrObmq/Cw==
+
 react-helmet-async@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/react-helmet-async/-/react-helmet-async-1.0.6.tgz#11c15c74e79b3f66670c73779bef3e0e352b1d4e"

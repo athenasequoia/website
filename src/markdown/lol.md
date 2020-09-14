@@ -1,4 +1,4 @@
-#### Episode 1:Le Mât Kaîget - Colombie Britannique, Canada
+## Episode 1:Le Mât Kaîget - Colombie Britannique, Canada
 
 <br></br>
 Pour ce premier épisode, partons en Colombie Britannique, chez les
@@ -12,7 +12,7 @@ https://soundcloud.com/lespetitesconfinees/le-mat-kaiget
 <br></br>
 <br></br>
 
-#### Episode 2: Les hommes-crocodiles - Papouasie-Nouvelle-Guinée
+## Episode 2: Les hommes-crocodiles - Papouasie-Nouvelle-Guinée
 
 <br></br>
 Pour les peuples Iatmul, la création de la Papouasie-Nouvelle Guinée est
@@ -30,7 +30,7 @@ https://soundcloud.com/lespetitesconfinees/les-hommes-crocodiles
 <br></br>
 <br></br>
 
-#### Episode 3: Le dama, en pays Dogon - Masques dogon, Mali
+## Episode 3: Le dama, en pays Dogon - Masques dogon, Mali
 
 <br></br>
 Cet épisode est consacré au dama, cérémonie du culte des morts chez les

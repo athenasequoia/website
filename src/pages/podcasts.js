@@ -30,22 +30,20 @@ const Podcast = ({ data }) => {
         <h1>Les Petites Conf-Inées</h1>
         <br></br>
 
-        <h2>
+        <h4>
           – des objets à écouter,
           <br></br> des histoires à raconter –
-        </h2>
+        </h4>
         <br></br>
-        <h3>
+        <p>
           Une série d’histoires venues d’ailleurs pour les enfants à partir de 7
           ans et jeunes curieux. Chaque épisode est dédié à un objet exposé dans
           nos musées et recèle une histoire universelle. Leur narration permet à
           vous et vos enfants de vous échapper vers un lointain géographique ou
-          temporel.{" "}
-          <span className="yellow">
-            {" "}
-            Si ces objets sont conservés dans des espaces muséographiques, il
-            demeure possible de les écouter.
-          </span>{" "}
+          temporel. Si ces objets sont conservés dans des espaces
+          muséographiques, il demeure possible de les écouter.
+          <br></br>
+          <br></br>
           Commençons par des objets du Musée du quai Branly – Jacques Chirac et
           tissons ensemble des liens de savoir et d’évasion. Les Petites
           Conf-Inées suivent un découpage géographique, selon les aires
@@ -57,7 +55,7 @@ const Podcast = ({ data }) => {
           vitrine au musée du quai Branly – Jacques Chirac. Ils proviennent de
           trois aires culturelles : l’Amérique, l’Afrique et l’Océanie (les
           objets d’Océanie étant les plus nombreux)
-        </h3>
+        </p>
         <br></br>
         <br></br>
         <br></br>

@@ -6,23 +6,23 @@ const Navbar = props => {
     <div className="navbar">
       <ul>
         <li>
-          <Link to="/">Accueil</Link>
+          <Link to="/"> Accueil </Link>
         </li>
         <br></br>
         <li>
-          <Link to="/about">Apropos</Link>
+          <Link to="/about"> Apropos </Link>
         </li>
         <br></br>
         <li>
-          <Link to="/services">Services</Link>
+          <Link to="/services"> Services </Link>
         </li>
         <br></br>
         <li>
-          <Link to="/podcasts">Podcast</Link>
+          <Link to="/podcasts"> Podcast </Link>
         </li>
         <br></br>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact"> Contact </Link>
         </li>
       </ul>
     </div>

@@ -10,10 +10,9 @@ const Home = props => {
         <h1>
           Une approche <br></br>
           <span className="emphasis">
-            interculturelle et interdisciplinaire des arts <br></br>
+            interculturelle et interdisciplinaire des arts
           </span>{" "}
-          pour vous,
-          <br></br> votre entreprise <br></br> ou votre famille.
+          <br></br> pour vous, votre entreprise <br></br> ou votre famille.
         </h1>
       </div>
     </>
