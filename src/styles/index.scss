@@ -78,8 +78,15 @@ p {
   letter-spacing: 1px;
 }
 
+.bm-burger-button {
+  display: none;
+}
+
 @media only screen and (max-width: $Phones) {
   .navbar {
     display: none;
+  }
+  .bm-burger-button {
+    display: block;
   }
 }

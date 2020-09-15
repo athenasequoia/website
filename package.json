@@ -27,8 +27,8 @@
     "gatsby-transformer-remark": "^2.8.32",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
+    "react-burger-menu": "^2.7.1",
     "react-dom": "^16.12.0",
-    "react-hamburger-menu": "^1.2.1",
     "react-helmet-async": "^1.0.6",
     "react-inlinesvg": "^2.1.0",
     "react-social-badge": "^1.0.6"

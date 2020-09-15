@@ -8,10 +8,10 @@ import Banner from "../components/banner"
 // Importing the master style
 import "../styles/index.scss"
 
-const [isOpen, setOpen] = useState(false) // <--- defaults to closed
-const handleClick = () => {
-  setOpen(true)
-}
+// const [isOpen, setOpen] = useState(false) // <--- defaults to closed
+// const handleClick = () => {
+//   setOpen(true)
+// }
 
 export default ({ children }) => {
   return (
