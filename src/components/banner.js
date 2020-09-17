@@ -13,8 +13,10 @@ const Banner = props => {
       <h1> Anna Theodorides </h1>
       <p> Guide Conférencier en histoire de l’art </p>
       <Menu isOpen={open} right>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
+        <Link to="/">Accueil</Link>
+        <Link to="/about">Apropos</Link>
+        <Link to="/services">Services</Link>
+        <Link to="/podcasts">Podcast</Link>
         <Link to="/contact">Contact</Link>
       </Menu>
     </div>
