@@ -13,13 +13,13 @@
 }
 
 /* Color/shape of burger icon bars on hover*/
-.bm-burger-bars-hover {
-  background: #a90000;
+.bm-burger-bars-hover:hover {
+  background: #yellow;
 }
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
-  height: 25px;
+  height: 10px;
   width: 24px;
 }
 
@@ -48,21 +48,19 @@ Note: Beware of modifying this element as it can break the animations - you shou
   word-spacing: 5px;
   letter-spacing: 3px;
   margin: 0 auto;
+  border-style: inset;
+  border-color: black;
+  border-width: medium;
 }
 
 /* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
-  fill: #373a47;
-}
-
-/* Wrapper for item list */
-.bm-item-list {
-  color: #b8b7ad;
+  // fill: green;
 }
 
 /* Individual item */
 .bm-item {
-  display: inline-block;
+  // display: inline-block;
   text-decoration: none;
   margin: 0 auto;
   padding-top: 100px;
@@ -70,5 +68,5 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Styling of overlay */
 .bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
+  background: black;
 }
