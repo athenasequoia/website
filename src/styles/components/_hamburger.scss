@@ -1,15 +1,15 @@
 /* Position and sizing of burger button */
 .bm-burger-button {
-  position: fixed;
-  width: 36px;
-  height: 30px;
-  right: 30px;
-  top: 45px;
+  position: sticky;
+  width: 45px;
+  height: 45px;
+  left: 0;
+  top: 65px;
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #373a47;
+  background: black;
 }
 
 /* Color/shape of burger icon bars on hover*/
@@ -19,13 +19,17 @@
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
-  height: 10px;
-  width: 24px;
+  height: 50;
+  width: 50;
 }
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #black;
+  background: red;
+}
+
+.close-button {
+  font-size: 50px;
 }
 
 /*
@@ -63,7 +67,16 @@ Note: Beware of modifying this element as it can break the animations - you shou
   // display: inline-block;
   text-decoration: none;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: black;
+  font-weight: bold;
+  outline-style: none;
+
+  &:hover {
+    box-shadow: 0 0 25px red;
+    border-radius: 30px;
+  }
 }
 
 /* Styling of overlay */

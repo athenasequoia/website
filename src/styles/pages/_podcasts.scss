@@ -1,7 +1,7 @@
 .PodcastIntrod {
   .iconconf {
     width: 4%;
-    position: fixed;
+    position: sticky;
     right: 100px;
     transition: 200ms;
     &:hover {

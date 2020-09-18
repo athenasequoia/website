@@ -4,12 +4,12 @@
   border-width: medium;
   background-color: white;
   width: calc(100vw - 30px);
+  // width: 100%;
   right: 0;
-  height: 5.5rem;
+  height: 10%;
   bottom: 0;
-  padding: 1rem;
   position: fixed;
-  // margin: .5rem 1rem;
+  margin-left: 100px;
   text-align: center;
   transition: 200ms;
   &:hover {
