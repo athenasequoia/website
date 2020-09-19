@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   cursor: pointer;
-  padding-right: 10px;
 }
 
 html {
@@ -24,14 +23,13 @@ body {
 
 .page-container {
   min-height: calc(100vh - 173px);
-  min-width: calc(100vw - 30px);
 
   padding: 24px;
   border-style: inset;
   border-color: black;
   border-width: medium;
   margin-left: 180px;
-  margin-top: 192px;
+  margin-top: 217px;
   top: 0;
   transition: 200ms;
   &:hover {

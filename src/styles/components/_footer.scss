@@ -9,11 +9,16 @@
   height: 10%;
   bottom: 0;
   position: fixed;
-  margin-left: 100px;
   text-align: center;
   transition: 200ms;
   &:hover {
     box-shadow: 0 0 2rem gray;
+  }
+  .alliconswrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
   }
 }
 
