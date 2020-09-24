@@ -10,19 +10,17 @@ const Banner = props => {
   useEffect(() => {
     console.log(open)
   }, [open])
-  const closeMenu = () => {
-    setOpen(false)
-    console.log("prout")
-  }
+  // const closeMenu = () => {
+  //   setOpen(false)
+  //
+  // }
   return (
     <div className="banner">
       <h1> Anna Theodorides </h1>
       <p> Guide Conférencier en histoire de l’art </p>
 
       <Menu isOpen={open} right>
-        <div onClick={closeMenu}>
-          <Link to="/"> Accueil </Link>
-        </div>
+        <Link to="/"> Accueil </Link>
         <Link to="/about"> Apropos </Link>
         <Link to="/services"> Services </Link>
         <Link to="/podcasts"> Podcast </Link>

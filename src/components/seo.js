@@ -1,7 +1,7 @@
 import React from "react"
 import { useLocation } from "@reach/router"
 import { Helmet } from "react-helmet-async"
-import geima from "../../static/batc.jpeg"
+import paris from "../../static/paris.jpg"
 
 const SEO = ({ title, description, image, keywords }) => {
   const { pathname, origin } = useLocation() // origin = base URL, pathname = after slash, useLocation no matter what page I am on, it will look at URL
@@ -16,7 +16,7 @@ const SEO = ({ title, description, image, keywords }) => {
   const seo = {
     title: title || defaults.title,
     description: description || defaults.description,
-    image: `${origin}${image || geima}`,
+    image: `${origin}${image || paris}`,
     url: `${origin}${pathname}`,
     keywords: keywords || defaults.keywords,
   }
