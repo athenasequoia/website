@@ -82,41 +82,6 @@ p {
   display: none;
 }
 
-@media only screen and (max-width: $Phones) {
-  .navbar {
-    display: none;
-  }
-  .bm-burger-button {
-    display: block;
-  }
-  .banner h1 {
-    padding-left: 25px;
-  }
-  .banner p {
-    padding-top: 40px;
-    padding-right: 25px;
-    padding-left: 20px;
-  }
-  .banner {
-    margin: 0;
-    margin-left: -46px;
-    width: 110vh;
-    position: fixed;
-  }
-  .page-container {
-    margin: 1px;
-    margin-top: 185px;
-    box-sizing: content-box;
-    width: 100vh;
-  }
-  .footer {
-    width: 110vh;
-    height: 150px;
-    position: static;
-    margin-right: 0;
-    position: fixed;
-  }
-  .push {
-    height: 200px;
-  }
+.push {
+  height: 200px;
 }

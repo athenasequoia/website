@@ -4,10 +4,10 @@
   border-width: medium;
   width: 160px;
   padding: 40px;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  height: 2000px;
+  height: 100vh;
   transition: 200ms;
   &:hover {
     box-shadow: 0 0 2rem gray;

@@ -14,8 +14,16 @@ const Contact = props => {
           {" "}
           <SVG src={iconcoop} />
         </div>
-        <p>annatheoconf@gmail.com</p>
-        <p>+33 615 488 692</p>
+        <br></br>
+        <br></br>
+        <div className="contactinfo">
+          <p>
+            annatheoconf@gmail.com
+            <br></br>
+            <br></br>
+            +33 615 488 692
+          </p>
+        </div>
       </div>
     </>
   )

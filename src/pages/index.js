@@ -7,6 +7,8 @@ const Home = props => {
     <>
       <SEO title="Accueil | Anna Theodorides, Guide Conferencier en histoire de l'art" />
       <div className="accueil">
+        <br></br>
+        <br></br>
         <h1>
           Une approche <br></br>
           <span className="emphasis">

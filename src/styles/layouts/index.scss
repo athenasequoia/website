@@ -23,13 +23,13 @@ body {
 
 .page-container {
   min-height: calc(100vh - 173px);
-
   padding: 24px;
   border-style: inset;
   border-color: black;
   border-width: medium;
   margin-left: 180px;
   margin-top: 217px;
+  margin-bottom: 150px;
   top: 0;
   transition: 200ms;
   &:hover {
@@ -52,5 +52,38 @@ body {
   p {
     color: black;
     font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: $Phones) {
+  .navbar {
+    display: none;
+  }
+  .bm-burger-button {
+    display: block !important;
+  }
+  .banner h1 {
+    padding-left: 40px;
+  }
+  .banner p {
+    padding-top: 40px;
+    padding-right: 25px;
+    padding-left: 20px;
+  }
+  .banner {
+    margin: 0 auto;
+    position: fixed;
+  }
+  .page-container {
+    margin: 1px;
+    margin-top: 185px;
+    box-sizing: content-box;
+  }
+  .footer {
+    height: 150px;
+    position: static;
+    width: 100vw;
+    margin-right: 0;
+    position: fixed;
   }
 }

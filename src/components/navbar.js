@@ -10,7 +10,7 @@ const Navbar = props => {
         </li>
         <br></br>
         <li>
-          <Link to="/about"> Apropos </Link>
+          <Link to="/about"> A propos </Link>
         </li>
         <br></br>
         <li>
