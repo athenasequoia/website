@@ -1,5 +1,4 @@
 import React from "react"
-import iconac from "../images/academia-edu.svg"
 import iconlk from "../images/linkedin.svg"
 import iconfb from "../images/facebook.svg"
 import SVG from "react-inlinesvg"
@@ -10,14 +9,6 @@ const Footer = props => {
       <div className="alliconswrapper">
         {" "}
         <div className="allicons">
-          <a
-            href="https://ehess.academia.edu/AnnaTheodorides"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {" "}
-            <SVG src={iconac} />
-          </a>
           <a
             href="https://www.facebook.com/lespetitesconfinees"
             target="_blank"
@@ -34,6 +25,9 @@ const Footer = props => {
             {" "}
             <SVG src={iconlk} />
           </a>
+          <br></br>
+
+          <p> Copyright © 2020 Athéna Vassilopoulos </p>
         </div>
       </div>
     </div>

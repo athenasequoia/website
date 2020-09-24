@@ -16,14 +16,13 @@ const Contact = props => {
         </div>
         <br></br>
         <br></br>
-        <div className="contactinfo">
-          <p>
-            annatheoconf@gmail.com
-            <br></br>
-            <br></br>
-            +33 615 488 692
-          </p>
-        </div>
+
+        <p>
+          annatheoconf@gmail.com
+          <br></br>
+          <br></br>
+          +33 615 488 692
+        </p>
       </div>
     </>
   )

@@ -1,5 +1,7 @@
 import React from "react"
 import SEO from "../components/seo.js"
+import iconac from "../images/academia-edu.svg"
+import SVG from "react-inlinesvg"
 
 const About = props => {
   return (
@@ -49,8 +51,18 @@ const About = props => {
         <p>
           Docteure en sciences sociales à l’Ecole des Hautes Etudes en Sciences
           Sociales – Paris, je suis spécialisée dans les stratégies de survie
-          des minorités non-musulmanes au Moyen-Orient. Publications et
-          contributions sont en ligne :
+          des minorités non-musulmanes au Moyen-Orient. Vous pouvez retrouver
+          mes publications et contributions ci-dessous:
+          <div className="iconacad">
+            <a
+              href="https://ehess.academia.edu/AnnaTheodorides"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              <SVG src={iconac} />
+            </a>
+          </div>
         </p>
       </div>
     </>
