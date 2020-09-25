@@ -5,6 +5,7 @@
   height: 45px;
   left: 0;
   top: 65px;
+  right: 20px !important;
 }
 
 /* Color/shape of burger icon bars */
@@ -27,8 +28,9 @@
 .bm-cross {
   background: black;
   transform: scale(3);
-  height: 50px !important;
-  width: 50px;
+  height: 40px !important;
+  width: 40px;
+  right: 15px !important;
 }
 
 .close-button {
@@ -49,7 +51,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* General sidebar styles */
 .bm-menu {
   background: white;
-  padding: 100px;
+  padding: 50px;
   font-size: 1.15em;
   font-family: "Questrial", sans-serif;
   font-color: black;

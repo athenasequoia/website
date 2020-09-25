@@ -2,6 +2,7 @@ import React from "react"
 import SEO from "../components/seo.js"
 import iconac from "../images/academia-edu.svg"
 import SVG from "react-inlinesvg"
+import { Link } from "gatsby"
 
 const About = props => {
   return (
@@ -13,9 +14,9 @@ const About = props => {
           Ma formation interdisciplinaire – histoire de l’art, sciences sociales
           - a façonné mes perceptions sur les œuvres d’art et mon activité
           d’enseignante constitue un gage de mon expérience dans la transmission
-          des savoirs auprès du plus grand nombre. Diplômée d’Etat (agréée
-          Ministère de la Culture) et Docteure en sciences sociales (EHESS,
-          Paris), j’interviens dans 4 domaines :
+          des savoirs auprès du plus grand nombre. Guide Conférencière,
+          (diplômée d’Etat, agréé Ministère de la Culture) et Docteure en
+          sciences sociales (EHESS, Paris), j’interviens dans 4 domaines:
         </p>
         <h2>Domaine Culturel</h2>
         <p>
@@ -28,15 +29,14 @@ const About = props => {
         </p>
         <h2>Podcast</h2>
         <p>
-          {" "}
           Depuis mars 2020, j’ai crée Les Petites Conf-Inées, une série
           d’épisodes en ligne racontant l’histoire d’objets conservés dans des
-          espaces muséographiques. Commençons par des objets du Musée du quai
-          Branly – Jacques Chirac et tissons ensemble des liens de savoir et
-          d’évasion. Je cherche à capter l’attention des Jeunes et Curieux sur
-          des objets étranges au premier regard et des histoires qui les
-          renvoient à des questions fondamentales telles que les origines, la
-          mort, les rites de passage …
+          espaces muséographiques. Je cherche à capter l’attention des Jeunes et
+          Curieux sur des objets étranges au premier regard et des histoires qui
+          les renvoient à des questions fondamentales telles que les origines,
+          la mort, les rites de passage.. Commençons par des objets du Musée du
+          quai Branly – Jacques Chirac et tissons ensemble des liens de savoir
+          et d’évasion. <Link to="/podcasts"> En savoir plus </Link>
         </p>
         <h2>Enseignement</h2>
         <p>
