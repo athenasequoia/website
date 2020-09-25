@@ -51,8 +51,8 @@ const About = props => {
         <p>
           Docteure en sciences sociales à l’Ecole des Hautes Etudes en Sciences
           Sociales – Paris, je suis spécialisée dans les stratégies de survie
-          des minorités non-musulmanes au Moyen-Orient. Vous pouvez retrouver
-          mes publications et contributions ici.
+          des minorités non-musulmanes au Moyen-Orient.
+          <br></br>
           <a
             href="https://ehess.academia.edu/AnnaTheodorides"
             target="_blank"
