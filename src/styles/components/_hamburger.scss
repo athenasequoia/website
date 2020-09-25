@@ -19,7 +19,7 @@
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
-  height: 50px;
+  height: 50px !important;
   width: 50px;
 }
 
@@ -27,7 +27,7 @@
 .bm-cross {
   background: black;
   transform: scale(3);
-  height: 50px;
+  height: 50px !important;
   width: 50px;
 }
 

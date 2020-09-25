@@ -38,7 +38,7 @@ const About = props => {
           renvoient à des questions fondamentales telles que les origines, la
           mort, les rites de passage …
         </p>
-        <h2>Enseignment</h2>
+        <h2>Enseignement</h2>
         <p>
           Ma formation pluridisciplinaire – double Masters en relations
           interculturelles à l’Université Paris 3 La Sorbonne Nouvelle et
