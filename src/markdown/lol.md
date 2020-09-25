@@ -1,4 +1,4 @@
-## Episode 1:Le Mât Kaîget - Colombie Britannique, Canada
+## Episode 1: Le Mât Kaîget - Colombie Britannique, Canada
 
 <br></br>
 Pour ce premier épisode, partons en Colombie Britannique, chez les

@@ -18,10 +18,7 @@ export default ({ children }) => {
     <div>
       <Navbar />
       <Banner />
-      <div className="page-container">
-        {children}
-        <div className="push"></div>
-      </div>
+      <div className="page-container">{children}</div>
       <Footer />
     </div>
   )

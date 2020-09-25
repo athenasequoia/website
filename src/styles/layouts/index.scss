@@ -13,10 +13,6 @@ body {
   padding: 0;
 }
 
-.push {
-  height: 100px;
-}
-
 .container {
   display: flex;
 }
@@ -60,31 +56,127 @@ body {
   .navbar {
     display: none;
   }
+
+  .accueil .emphasis {
+    font-size: 35px;
+  }
+
+  .accueil h1 {
+    font-size: 35px;
+  }
+
+  .introduction_self h1 {
+    color: black;
+    font-family: "Questrial", sans-serif;
+    font-size: 30px;
+    word-spacing: 2.5px;
+    letter-spacing: 1.3px;
+  }
+
+  .introduction_self p {
+    color: black;
+    font-family: "Questrial", sans-serif;
+    font-size: 15px;
+    word-spacing: 2.5px;
+    letter-spacing: 1.3px;
+  }
+
+  .services_presentation h1 {
+    color: black;
+    font-family: "Questrial", sans-serif;
+    font-size: 30px;
+    word-spacing: 2.5px;
+    letter-spacing: 1.3px;
+  }
+
+  .services_presentation p {
+    color: black;
+    font-family: "Questrial", sans-serif;
+    font-size: 15px;
+    word-spacing: 2.5px;
+    letter-spacing: 1.3px;
+  }
+
+  .services_presentation h2 {
+    color: black;
+    font-family: "Questrial", sans-serif;
+    font-size: 40px;
+  }
+
   .bm-burger-button {
     display: block !important;
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
   }
+
   .banner h1 {
-    padding-left: 40px;
+    // padding-left: 40px;
+    font-size: 28px;
+    margin-top: 50px;
+    margin-left: 30px;
   }
   .banner p {
     padding-top: 40px;
-    padding-right: 25px;
-    padding-left: 20px;
+    font-size: 15px;
   }
   .banner {
     margin: 0 auto;
     position: fixed;
+    height: 130px;
+    padding: none;
   }
+
   .page-container {
     margin: 1px;
+    // width: 100vw;
     margin-top: 185px;
     box-sizing: content-box;
+    margin-right: -15px;
+    margin-bottom: 20px;
+    // margin-bottom: 100px;
   }
   .footer {
-    height: 150px;
+    height: 90px;
     position: static;
     width: 100vw;
     margin-right: 0;
-    position: fixed;
+    // margin: 0 auto;
+  }
+
+  .alliconswrapper p {
+    font-size: 10px;
+  }
+
+  .PodcastIntrod h1 {
+    color: black;
+    font-family: "Questrial", sans-serif;
+    font-size: 30px;
+    word-spacing: 2.5px;
+    letter-spacing: 1.3px;
+  }
+
+  .PodcastIntrod p {
+    color: black;
+    font-family: "Questrial", sans-serif;
+    font-size: 15px;
+    word-spacing: 2.5px;
+    letter-spacing: 1.3px;
+  }
+
+  .PodcastIntrod h4 {
+    color: black;
+    font-family: "Questrial", sans-serif;
+    font-size: 35px;
+    word-spacing: 2.5px;
+    letter-spacing: 1.3px;
+  }
+
+  .PodcastIntrod h2 {
+    color: black;
+    font-family: "Questrial", sans-serif;
+    font-size: 30px;
+    word-spacing: 2.5px;
+    letter-spacing: 1.3px;
   }
 }
