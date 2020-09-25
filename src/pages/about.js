@@ -52,17 +52,14 @@ const About = props => {
           Docteure en sciences sociales à l’Ecole des Hautes Etudes en Sciences
           Sociales – Paris, je suis spécialisée dans les stratégies de survie
           des minorités non-musulmanes au Moyen-Orient. Vous pouvez retrouver
-          mes publications et contributions ci-dessous:
-          <div className="iconacad">
-            <a
-              href="https://ehess.academia.edu/AnnaTheodorides"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {" "}
-              <SVG src={iconac} />
-            </a>
-          </div>
+          mes publications et contributions ici.
+          <a
+            href="https://ehess.academia.edu/AnnaTheodorides"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Vous pouvez retrouver mes publications et contributions ici.
+          </a>
         </p>
       </div>
     </>
