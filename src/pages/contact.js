@@ -18,7 +18,13 @@ const Contact = props => {
         <br></br>
 
         <p>
-          annatheoconf@gmail.com
+          <a
+            href="mailto:annatheoconf@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            annatheoconf@gmail.com
+          </a>
           <br></br>
           <br></br>
           +33 615 488 692
