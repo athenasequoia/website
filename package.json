@@ -24,7 +24,7 @@
     "gatsby-plugin-sass": "^2.2.3",
     "gatsby-remark-embed-soundcloud": "^1.0.0",
     "gatsby-source-filesystem": "^2.3.27",
-    "gatsby-transformer-remark": "^2.8.32",
+    "gatsby-transformer-remark": "^5.25.1",
     "i": "^0.3.6",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
